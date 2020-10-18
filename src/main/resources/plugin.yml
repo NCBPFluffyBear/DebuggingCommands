@@ -1,0 +1,20 @@
+name: DebuggingCommands
+version: 1.0
+author: FluffyBear
+main: me.fluffybear.debuggingcommands.DebuggingCommands
+description: Used to find random stuff
+
+commands:
+  finder:
+    description: Find all enchants on server
+    usage: /<command>
+    permission: op
+  meta:
+    description: Get item metadata
+    usage: /<command>
+    permission: op
+  APIExecute:
+    description: Execute an API command
+    usage: /<command> command
+    permission: op
+    aliases: APIExec
