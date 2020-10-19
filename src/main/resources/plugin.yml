@@ -5,16 +5,19 @@ main: me.fluffybear.debuggingcommands.DebuggingCommands
 description: Used to find random stuff
 
 commands:
-  finder:
+  enchantfinder:
     description: Find all enchants on server
     usage: /<command>
     permission: op
-  meta:
+  printmeta:
     description: Get item metadata
     usage: /<command>
     permission: op
-  APIExecute:
-    description: Execute an API command
-    usage: /<command> command
+  copymeta:
+    description: Copies item metadata
+    usage: /<command>
     permission: op
-    aliases: APIExec
+  pastemeta:
+    description: Pastes stored item metadata
+    usage: /<command>
+    permission: op
