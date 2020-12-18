@@ -13,6 +13,11 @@
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
+
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -21,6 +26,40 @@
             <artifactId>bukkit</artifactId>
             <version>1.14.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.TheBusyBiscuit</groupId>
+            <artifactId>CS-CoreLib</artifactId>
+            <version>v1.6.1</version>
+            <scope>provided</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.github.thebusybiscuit</groupId>
+                    <artifactId>cscorelib2</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.bstats</groupId>
+                    <artifactId>bstats-bukkit</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.TheBusyBiscuit</groupId>
+            <artifactId>Slimefun4</artifactId>
+            <version>RC-17</version>
+            <scope>provided</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.github.thebusybiscuit</groupId>
+                    <artifactId>cscorelib2</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.bstats</groupId>
+                    <artifactId>bstats-bukkit</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 

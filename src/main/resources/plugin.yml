@@ -21,3 +21,7 @@ commands:
     description: Pastes stored item metadata
     usage: /<command>
     permission: op
+  bsaddinfo:
+    description: Adds block data (Slimefun)
+    usage: /<command>
+    permission: op

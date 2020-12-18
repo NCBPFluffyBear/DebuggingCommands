@@ -1,5 +1,6 @@
 package me.fluffybear.debuggingcommands;
 
+import me.fluffybear.debuggingcommands.commands.BSAddInfoCommand;
 import me.fluffybear.debuggingcommands.commands.CopyMetaCommand;
 import me.fluffybear.debuggingcommands.commands.EnchantFinderCommand;
 import me.fluffybear.debuggingcommands.commands.PasteMetaCommand;
@@ -15,6 +16,7 @@ public class DebuggingCommands extends JavaPlugin {
         this.getCommand("printmeta").setExecutor(new PrintMetaCommand(this));
         this.getCommand("copymeta").setExecutor(new CopyMetaCommand(this));
         this.getCommand("pastemeta").setExecutor(new PasteMetaCommand(this));
+        this.getCommand("bsaddinfo").setExecutor(new BSAddInfoCommand(this));
 
         getLogger().info("Debugging Commands has been enabled.");
     }
