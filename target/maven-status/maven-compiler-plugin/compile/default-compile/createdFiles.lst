@@ -1,0 +1,8 @@
+me\fluffybear\debuggingcommands\Utils.class
+me\fluffybear\debuggingcommands\commands\CopyMetaCommand.class
+me\fluffybear\debuggingcommands\commands\FindItemCommand.class
+me\fluffybear\debuggingcommands\commands\PasteMetaCommand.class
+me\fluffybear\debuggingcommands\commands\BSAddInfoCommand.class
+me\fluffybear\debuggingcommands\commands\EnchantFinderCommand.class
+me\fluffybear\debuggingcommands\DebuggingCommands.class
+me\fluffybear\debuggingcommands\commands\PrintMetaCommand.class
