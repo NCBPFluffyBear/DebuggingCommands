@@ -38,7 +38,7 @@ public class FindItemCommand implements CommandExecutor {
                 } else {
                     ItemStack item = p.getInventory().getItemInMainHand();
                     Bukkit.getOnlinePlayers().forEach(pl -> {
-                        if (pl.getInventory().contains(item)) {
+                        if (pl.getInventory().containsAtLeast(item, 1)) {
                             Utils.send(sender, "&aFound player: " + pl.getName());
                         }
                     });
